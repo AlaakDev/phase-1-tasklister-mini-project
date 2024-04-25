@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
  form.addEventListener("submit", (event) => {
    event.preventDefault();
 
-   const taskInput = document.getElementById("new-task-description");
+  const taskInput = document.getElementById("new-task-description");
    const taskDescription = taskInput.value;
 
    const taskItem = document.createElement("li");
